@@ -1,0 +1,12 @@
+import React from 'react';
+
+const About = () => {
+    return (
+        <div>
+            <h2>This is About Page</h2>
+            <p><small>It's pages About our Company</small></p>
+        </div>
+    );
+};
+
+export default About;
