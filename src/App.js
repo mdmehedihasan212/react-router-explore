@@ -4,11 +4,12 @@ import Friends from './components/Friends/Friends';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1 style={{ color: 'goldenrod', fontSize: '40px' }}>Welcome to React Router!</h1>
+      <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/friends" element={<Friends></Friends>}></Route>
